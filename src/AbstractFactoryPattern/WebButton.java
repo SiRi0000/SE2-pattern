@@ -1,4 +1,8 @@
 package AbstractFactoryPattern;
 
-public class WebButton {
+public class WebButton extends Button{
+    @Override
+    public void paint() {
+        System.out.println("WebButton");
+    }
 }
